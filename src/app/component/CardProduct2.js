@@ -3,15 +3,15 @@ import FasihonItem from "../../assets/img/sama-hosseini-WUru1jV4ix8-unsplash.jpg
 
 const CardProduct2 = () => {
   return (
-    <div className="flex justify-center items-center mt-5 shadow-lg">
-      <div className="w-[1100px] relative">
+    <div className="flex justify-center items-center py-5 bg-white">
+      <div className="w-[860px] relative border rounded-lg shadow-lg">
         <div className="absolute inset-[31.5%] text-9xl text-slate-50">
           THING
         </div>
         <Image
           src={FasihonItem}
-          width={400}
-          height={400}
+          width={200}
+          height={200}
           alt="Picture of the author"
           className="w-full h-[400px]"
         />

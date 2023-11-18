@@ -23,6 +23,13 @@ const Footertop = () => {
           <a className="link link-hover">Cookie policy</a>
         </nav>
       </footer>
+      <div className="text-sm breadcrumbs ml-8 p-2 bg-white">
+        <ul>
+          <li>
+            <a>HomePage</a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
